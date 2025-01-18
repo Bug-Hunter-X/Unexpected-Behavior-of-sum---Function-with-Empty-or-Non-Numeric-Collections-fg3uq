@@ -1,0 +1,3 @@
+This repository demonstrates a potential issue with Kotlin's `sum()` function when used with empty collections or collections containing non-numeric types.
+
+The `BugSum.kt` file shows the problem: While summing numeric collections works as expected, attempting to sum an empty collection or a collection of strings results in either a runtime exception or a compile-time error. The solution file provides a more robust approach that handles various edge cases and collection types.
